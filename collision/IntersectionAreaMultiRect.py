@@ -21,7 +21,7 @@ def intersectionAreaMultiRec(rectangles):
             return [(x1, y1), (x2, y2)]  
         return None  
     
-    #площадь прямоугольника, если не существует площадь - 0
+    #площадь прямоугольника, если не существует площадь = 0
     def area(rect):
         if not rect:
             return 0 
